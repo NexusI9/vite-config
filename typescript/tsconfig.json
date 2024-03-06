@@ -10,16 +10,15 @@
     "allowSyntheticDefaultImports": true,
     "typeRoots": [
       "./node_modules/@types",
-      "./node_modules/@figma"
     ],
     "baseUrl": "./",
     "paths": {
-        "@components/*": ["src/client/components/*"],
-        "@icons/*": ["src/client/assets/icons/*"],
-        "@styles/*": ["src/client/styles/*"],
+        "@components/*": ["src/components/*"],
+        "@icons/*": ["src/assets/icons/*"],
+        "@styles/*": ["src/styles/*"],
         "@ctypes/*": ["src/types/*"],
         "@lib/*": ["src/lib/*"],
-        "@templates/*":["src/client/templates/*"]
+        "@templates/*":["src/templates/*"]
     }
   },
   "include": ["src","src/custom.d.ts"]

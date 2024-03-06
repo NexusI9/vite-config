@@ -1,5 +1,4 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const InlineChunkHtmlPlugin = require('react-dev-utils/InlineChunkHtmlPlugin');
 const path = require('path');
 
 module.exports = (env, argv) => ({
@@ -9,8 +8,7 @@ module.exports = (env, argv) => ({
   devtool: argv.mode === 'production' ? false : 'inline-source-map',
 
   entry: {
-    ui: './src/client/index.tsx', // The entry point for your plugin code
-    index: './src/server/index.ts', // The entry point for your plugin code
+    index: './src/index.tsx', // The entry point for your code
   },
   module: {
     rules: [
@@ -49,12 +47,11 @@ module.exports = (env, argv) => ({
     // Webpack tries these extensions for you if you omit the extension like "import './file'"
     extensions: ['.tsx', '.ts', '.jsx', '.js', '.svg'],
     alias: {
-      "@components": path.resolve(__dirname, "src/client/components/"),
-      "@icons": path.resolve(__dirname, "src/client/assets/icons/"),
-      "@styles": path.resolve(__dirname, "src/client/styles/"),
+      "@components": path.resolve(__dirname, "src/components/"),
+      "@assets": path.resolve(__dirname, "src/assets/"),
+      "@styles": path.resolve(__dirname, "src/styles/"),
       "@lib": path.resolve(__dirname, "src/lib/"),
       "@ctypes": path.resolve(__dirname, "src/types/"),
-      "@templates": path.resolve(__dirname, "src/client/templates/")
     }
   },
 
@@ -64,15 +61,12 @@ module.exports = (env, argv) => ({
     clean: true
   },
 
-  // Tells Webpack to generate "ui.html" and to inline "ui.ts" into it
+  // Tells Webpack to generate "index.html" and to inline "index.ts" into it
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/client/index.html',
+      template: 'src/index.html',
       filename: 'index.html',
-      chunks: ['ui'],
-      inject: "body",
       cache: false //refresh html on watch
-    }),
-    new InlineChunkHtmlPlugin(HtmlWebpackPlugin, [/ui/]),
+    })
   ],
 });
