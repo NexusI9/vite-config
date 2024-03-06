@@ -1,5 +1,5 @@
-# ViteJS config preset
-A simple repo gathering various viteJS preconfigurated projects depending on the need.
+# Web Bundler config preset
+A simple repo gathering various Webpack or viteJS preconfigurated projects depending on the need.
 
 ## Configurations
 
