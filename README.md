@@ -46,3 +46,8 @@ For projects that require to maintain the same structure as the src/ directory
     - SCSS
 - Bundle Type: Will bundle all the assets within a "assets" directory
 
+## How to use
+
+1. Clone on of the config directory
+2. run "npm install"
+3. run "npm run dev" or "npm run watch" depending on the configuration chosen

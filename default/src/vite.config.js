@@ -1,3 +1,5 @@
+import path from 'path';
+
 export default {
   root: 'src',
   server: {
