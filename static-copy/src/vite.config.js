@@ -47,5 +47,13 @@ export default {
         entryFileNames: DEFAULT_ENTRY_FOLDER + '/' + `[name]` + `.js`,
       }
     }
+  },
+  resolve: {
+    alias: {
+      '@styles': path.resolve(__dirname, './src/styles'),
+      '@js': path.resolve(__dirname, './src/js'),
+      '@public': path.resolve(__dirname, './public'),
+      '@assets': path.resolve(__dirname, './src/assets'),
+    }
   }
 }
