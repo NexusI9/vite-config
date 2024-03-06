@@ -6,6 +6,9 @@ export default {
     root: 'src',
     publicDir: '../public',
     base: './',
+    server:{
+        host:true
+    },
     build: {
         minify: false,
         minifySyntax: false,
@@ -32,6 +35,7 @@ export default {
     resolve: {
         alias: {
             '@styles': path.resolve(__dirname, './src/styles'),
+            '@assets': path.resolve(__dirname, './src/assets'),
             '@lib': path.resolve(__dirname, './src/lib'),
             '@public': path.resolve(__dirname, './public'),
         }
