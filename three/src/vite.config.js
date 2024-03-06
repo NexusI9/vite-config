@@ -1,6 +1,7 @@
 // vite.config.js
 import path from 'path';
 import glsl from 'vite-plugin-glsl';
+import gltf from 'vite-plugin-gltf';
 
 export default {
     root: 'src',
@@ -40,5 +41,6 @@ export default {
             '@public': path.resolve(__dirname, './public'),
         }
     },
-    plugins: [glsl()]
+    assetsInclude: ['**/*.gltf'],
+    plugins: [glsl(), gltf()]
 }
