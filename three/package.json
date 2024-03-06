@@ -1,0 +1,19 @@
+{
+  "name": "three-js-slider",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite src",
+    "build": "vite build src",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5",
+    "vite": "^5.0.0",
+    "vite-plugin-glsl": "^1.2.1"
+  },
+  "dependencies": {
+    "three": "^0.159.0"
+  }
+}
