@@ -1,7 +1,7 @@
 {
-  "name": "stylestudio",
+  "name": "Name project",
   "version": "1.0.0",
-  "description": "Your Figma Plugin",
+  "description": "Your project",
   "main": "index.js",
   "scripts": {
     "watch": "npm run build -- --watch",
@@ -11,12 +11,9 @@
   "author": "",
   "license": "",
   "devDependencies": {
-    "@figma/plugin-typings": "*",
     "@svgr/webpack": "^8.1.0",
-    "@types/chroma-js": "^2.4.3",
     "@types/react": "^18.2.25",
     "@types/react-dom": "^18.2.11",
-    "@types/webfontloader": "^1.6.38",
     "css-loader": "^6.8.1",
     "html-webpack-plugin": "^5.5.3",
     "react-dev-utils": "^12.0.1",
@@ -29,21 +26,9 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "@ant-design/colors": "^7.0.1",
-    "@mantine/colors-generator": "^7.3.2",
-    "@material/material-color-utilities": "^0.2.7",
-    "@mdhnpm/wcag-contrast-checker": "^1.1.0",
-    "@reduxjs/toolkit": "^2.0.1",
-    "change-case": "^5.4.2",
-    "chroma-js": "^2.4.2",
-    "color-convert": "^2.0.1",
-    "color-namer": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^9.0.4",
-    "sass": "^1.69.5",
-    "simple-color-converter": "^2.1.13",
-    "wcag-color": "^1.1.1",
-    "webfontloader": "^1.6.28"
+    "sass": "^1.69.5"
   }
 }
