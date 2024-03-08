@@ -18,11 +18,22 @@ const FILES_CONFIG = [
 const DEFAULT_ASSET_FOLDER = 'assets';
 const DEFAULT_ENTRY_FOLDER = 'js';
 
+//remove crossorigin attribute from build
+const noAttr = () => {
+  return {
+    name: "no-attribute",
+    transformIndexHtml(html) {
+      return html.replace('crossorigin', '');
+    }
+  }
+}
+
 export default {
   root: 'src',
   server: {
     host: true
   },
+  publicDir: '../public',
   build: {
     minify: false,
     outDir: '../dist',
@@ -49,6 +60,7 @@ export default {
       }
     }
   },
+  plugins:[noAttr()],
   resolve: {
     alias: {
       '@styles': path.resolve(__dirname, './src/styles'),
