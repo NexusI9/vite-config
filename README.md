@@ -46,6 +46,14 @@ For projects that require to maintain the same structure as the src/ directory
     - SCSS
 - Bundle Type: Will bundle all the assets within a "assets" directory
 
+### PHP
+For PHP projects, features a PHP server and watcher.
+**Details**
+- Languages: 
+    - JS
+    - SCSS
+    - PHP
+
 ## How to use
 
 1. Clone on of the config directory
