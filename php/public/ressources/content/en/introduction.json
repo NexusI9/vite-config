@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Mobility",
+        "color": "ice",
+        "href": "#solution-block-mobility"
+    },
+    {
+        "title": "Micro LED Display",
+        "color": "violet",
+        "href": "#solution-block-micro-led"
+    },
+    {
+        "title": "Display Solutions",
+        "color": "primrose",
+        "href": "#solution-block-display-solutions"
+    },
+    {
+        "title": "Vertical Solutions",
+        "color": "butter",
+        "href": "#solution-block-vertical-solutions"
+    },
+    {
+        "title": "ESG",
+        "color": "dust",
+        "href": "#Going-Green-Solutions-block"
+    }
+]

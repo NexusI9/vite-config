@@ -1,0 +1,71 @@
+[
+    {
+        "title": "Mobility",
+        "color": "ice",
+        "slides": [
+            {
+                "title": "Smart Cockpit",
+                "description": "The Smart Mobility solution integrates software and hardware for fully immersive displays. At Touch Taiwan 2023, AUO will unveil “AUO Smart Cockpit,” enhancing intelligence, entertainment, safety, and user experience. Using AUO’s proprietary Fully Integrated Display Module Plus (FIDM Plus), it creates a safe and comfortable cockpit environment. Backseat entertainment and business experiences are upgraded with pioneering display technologies like AmLED and Micro LED, enhancing the smart mobile experience.",
+                "picture": "smart"
+            },
+            {
+                "title": "Mobility Service",
+                "description": "With the rise of electric and autonomous vehicles, AUO focuses on outdoor, smart transportation, and mobility. Collaborating with ecosystem partners, AUO develops smart charging stations, offering diverse, reliable, and innovative solutions. This includes ultra-high brightness outdoor displays, adaptable for various applications such as public transportation, retail, and Digital Out-of-Home (DOOH) opportunities. The customized TARTAN Display provides real-time passenger information and advertisements, suitable for retail businesses, station platforms, and railroad vehicles.",
+                "picture": "mobility"
+            },
+            {
+                "title": "HMI",
+                "description": "The Smart Mobility solution integrates software and hardware for fully immersive displays. At Touch Taiwan 2023, AUO will unveil “AUO Smart Cockpit,” enhancing intelligence, entertainment, safety, and user experience. Using AUO’s proprietary Fully Integrated Display Module Plus (FIDM Plus), it creates a safe and comfortable cockpit environment. Backseat entertainment and business experiences are upgraded with pioneering display technologies like AmLED and Micro LED, enhancing the smart mobile experience.",
+                "picture": "hmi"
+            }
+        ]
+    },
+    {
+        "title": "Micro LED",
+        "color": "violet",
+        "slides": [
+            {
+                "title": "Display Solutions",
+                "description": "AUO focuses on meeting the demands of gamers with comprehensive product lines, offering gaming monitor and notebook PC displays with high refresh rates, resolutions, and curved designs. Their latest high-resolution panels support variable refresh rates for breakthrough frame rates. AUO’s Advanced Reflectionless Technology (A.R.T.) reduces eye fatigue by minimizing glare and reflections from sunlight or indoor lighting. Additionally, AUO’s proprietary AmLED (Adaptive mini LED) technology ensures optimal brightness and contrast, catering specifically to real-time strategy (RTS) gamers.",
+                "picture": "microled"
+            }
+        ]
+    },
+    {
+        "title": "Display Solutions",
+        "color": "primrose",
+        "slides": [
+            {
+                "title": "Picture Quality",
+                "description": "AUO prioritizes the needs of gamers with its range of gaming monitor and notebook PC displays, offering high refresh rates, resolutions, and curved designs. Their latest high-resolution gaming panels support variable refresh rates (VRR), ensuring breakthrough frame rates. Equipped with AUO’s Advanced Reflectionless Technology (A.R.T.), these panels minimize glare and reflections, reducing eye fatigue caused by sunlight or indoor lighting. Additionally, AUO’s proprietary AmLED (Adaptive mini LED) technology dynamically adjusts brightness and contrast, specifically catering to the demands of real-time strategy (RTS) gamers.",
+                "picture": "gaming"
+            },
+            {
+                "title": "Green Tech",
+                "description": "AUO prioritizes the needs of gamers with its range of gaming monitor and notebook PC displays, offering high refresh rates, resolutions, and curved designs. Their latest high-resolution gaming panels support variable refresh rates (VRR), ensuring breakthrough frame rates. Equipped with AUO’s Advanced Reflectionless Technology (A.R.T.), these panels minimize glare and reflections, reducing eye fatigue caused by sunlight or indoor lighting. Additionally, AUO’s proprietary AmLED (Adaptive mini LED) technology dynamically adjusts brightness and contrast, specifically catering to the demands of real-time strategy (RTS) gamers.",
+                "picture": "green"
+            }
+        ]
+    },
+    {
+        "title": "Vertical Solutions",
+        "color": "butter",
+        "slides": [
+            {
+                "title": "Retail",
+                "description": "The rise of hybrid work complicates the management of enterprise spaces. AUO leverages top technologies for smart business solutions, such as the world’s first TÜV Rheinland-certified Advanced Reflectionless Technology (A.R.T.) display panel designed for creators, and sophisticated integrated touch solutions. Additionally, its subsidiary AUO Display Plus provides the “Meeting Room Solution,” combining displays and communication technologies to streamline functions like handling diverse device interfaces, connecting participants, and supporting post-meeting follow-ups, thereby boosting productivity in business meetings.",
+                "picture": "retail"
+            },
+            {
+                "title": "Education",
+                "description": "The rise of hybrid work complicates the management of enterprise spaces. AUO leverages top technologies for smart business solutions, such as the world’s first TÜV Rheinland-certified Advanced Reflectionless Technology (A.R.T.) display panel designed for creators, and sophisticated integrated touch solutions. Additionally, its subsidiary AUO Display Plus provides the “Meeting Room Solution,” combining displays and communication technologies to streamline functions like handling diverse device interfaces, connecting participants, and supporting post-meeting follow-ups, thereby boosting productivity in business meetings.",
+                "picture": "education"
+            },
+            {
+                "title": "Healthcare",
+                "description": "AUO extends advanced display technologies to precision-focused medical solutions. By understanding user needs, AUO transforms demands into development projects. This year’s showcased medical imaging solutions feature Naked Eye 3D technology and Advanced Reflectionless Technology (A.R.T.), applicable in pre-procedure planning, microsurgery, surgery instructions, and more. AUO offers precise display tools aiding medical practitioners in accurate diagnosis and treatments.",
+                "picture": "medical"
+            }
+        ]
+    }
+]

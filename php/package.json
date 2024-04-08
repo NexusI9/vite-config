@@ -1,0 +1,21 @@
+{
+  "name": "touch-taiwan-2024",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "php": "php -q -S 0.0.0.0:8000 -t dist/",
+    "watch": "vite build src --watch",
+    "sync": "./node_modules/.bin/browser-sync start --localOnly --files 'dist'",
+    
+    "dev": "npm run php & npm run watch & npm run sync",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "fast-glob": "^3.3.2",
+    "sass": "^1.71.1",
+    "vite": "^5.1.4"
+  }
+}

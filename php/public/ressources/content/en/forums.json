@@ -1,0 +1,50 @@
+[
+    {
+        "portrait": "weilung",
+        "name": "Wei-Lung Liao",
+        "position": "Chief Technology Officer",
+        "company": "AUO Corporation",
+        "date": "4.24",
+        "day": "Wed",
+        "time": "14:55 - 15:20",
+        "forum": "International Smart Display Application Conference",
+        "topic": "Display Technology Transformation-Future Display Innovation",
+        "room": "K1 401"
+    },
+    {
+        "portrait": "jerry",
+        "name": "Jerry Chen",
+        "position": "Chief Technology Officer",
+        "company": "AUO Corporation",
+        "date": "4.24",
+        "day": "Wed",
+        "time": "15:40 - 16:10",
+        "forum": "Display Technology and AI Applications in Smart Healthcare Forum",
+        "topic": "AI-empowered by display technology ushers in a new era of medical visualization",
+        "room": "B2 402a"
+    },
+    {
+        "portrait": "jennifer",
+        "name": "Jennifer Lin",
+        "position": "Vice President of Innovation Development",
+        "company": "AUO Corporation",
+        "date": "4.25",
+        "day": "Thu",
+        "time": "09:40 - 10:10",
+        "forum": "International Micro/Mini LED Display Conference",
+        "topic": "",
+        "room": "L1 401"
+    },
+    {
+        "portrait": "tingjui",
+        "name": "Ting-Jui Chang",
+        "position": "Senior Director",
+        "company": "AUO Corporation",
+        "date": "4.25",
+        "day": "Thu",
+        "time": "14:05 - 14:35",
+        "forum": "Smart Cockpit and Smart Display Technology Application Forum",
+        "topic": "Visualizing an Innovative Future of AUO Smart Cockpit",
+        "room": "B3 403"
+    }
+]
